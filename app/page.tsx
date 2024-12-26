@@ -28,7 +28,7 @@ export default function Page() {
         <div className = {style.container}>
           
           <div className = {style.column}>
-            <div className= {style.question}><h3>Curious about your favorite stocks? Let Wonder reveal the insights you've been waiting for!</h3></div>
+            <div className= {style.question}><h3>Curious about your favorite stocks? Let Wonder reveal the insights you&apos;ve been waiting for!</h3></div>
           </div>
 
           <div className = {style.column}>
