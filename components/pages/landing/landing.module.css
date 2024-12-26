@@ -1,0 +1,105 @@
+.parent{
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+}
+.header {
+    background-color: #1e1e1e;
+    padding: 20px; /* You can adjust the padding as needed */
+    text-align: left;
+    font-size: 1.2rem; /* You can specify a base font size */
+    margin-bottom: 0px; /* Space between header and columns */
+    width: 100%; /* Make sure the header spans the full width */
+    min-height: 35px; /* Set a minimum height for the header */
+    text-align: center;
+}
+
+.title {
+    color: #e2e2e2;
+    padding: 0; /* Remove padding to avoid increasing header size */
+    margin: -10px 0; /* Adjust negative margin to pull title upwards */
+    text-align: center;
+    font-size: 2rem; /* Larger font size for the title */
+    font-weight: bolder;
+    
+}
+
+.button{
+    padding: 60px 120px;
+    text-align: center;
+    background-color: #bb86fc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 60px;
+
+    display: flex;               /* Enable flexbox */
+    justify-content: center;     /* Center horizontally */
+    align-items: center;         /* Center vertically (optional) */
+ 
+}
+
+.button:hover {
+    background-color: #9e60db; /* Darker shade on hover */
+}
+
+
+.question{
+    text-align: center;
+    color: #e2e2e2;
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+.text{
+    color: #e2e2e2;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 3 columns */
+    gap: 20px; /* Space between columns */
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.row {
+    grid-column: span 2;
+    background-color: #1e1e1e;
+}
+.column {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    min-height: 300px;
+}
+
+.t2 {
+    text-align: center;
+    color: #e2e2e2;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.column h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .column p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }

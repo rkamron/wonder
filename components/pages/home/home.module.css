@@ -1,0 +1,67 @@
+.body {
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    display: flex;
+}
+
+.parent{
+    flex: 1; /* Takes the remaining width after navbar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    grid-template-rows: repeat(2, auto); /* Two rows */
+    gap: 20px; /* Space between the boxes */
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-right: 140px;
+    justify-content: center; /* Centers the grid horizontally */
+}
+
+.box{
+    background-color:#333;
+    padding:20px;
+    border-radius:10px;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    align-content: stretch;
+    justify-content:center;
+    font-size:40px;
+    width: 400px;
+    height: 250px;
+    font-family:sans-serif;
+}
+
+.button{
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px; /* Space between buttons */
+    padding: 20px;
+}
+
+.button button { /* Specific button styling */
+    font-size: 24px; /* Increases text size */
+    padding: 15px 30px; /* Increase button size */
+    width: 200px; /* Optional: Set a fixed width */
+    height: 100px; /* Optional: Set a fixed height */
+    border-radius: 10px; /* Optional: Rounded corners */
+}
+.text{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+}
